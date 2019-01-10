@@ -5,7 +5,6 @@ body {
     background: linear-gradient(to right, #8E54E9, #4776E6); 
     height: 100%;
     font-size: 1.3rem;
-    font-family: "Montserrat", sans-serif;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
@@ -23,15 +22,21 @@ header {
    background: white;
    white-space: nowrap;
    width: 100%;
+   z-index: 500;
 }
 
 .navbar-brand {
     float: left;
-    font-size: 1.25rem;
+    z-index: 500;
 } 
 
-a {
-    background-color: transparent;
+h2 {
+    font-family: 'Playfair Display SC', serif;
+    font-variant: small-caps;
+    letter-spacing: 5px;
+    color: black;
+    margin-left: 40px;
+    font-weight: bold;
 }
 
 #menu {
@@ -43,8 +48,42 @@ a {
         display: flex;
         flex-direction: column;
         background: white;
-        overflow: auto;
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
     } 
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+  } 
+
+  li a {
+    display: block;
+      margin-top: 20px;
+  }
+
+ a {
+      display: none;
+  }
+
+ .aboutme:hover .male,
+ .aboutme .male-filled, 
+ .portfolio:hover .document,
+ .portfolio .document-filled,
+ .contact:hover .message,
+ .contact .message-filled{
+     display: none;
+ }
+
+ .aboutme:hover .male-filled,
+ .portfolio:hover .document-filled,
+ .contact:hover .message-filled{
+     display: inline;
+ }
+
    
  #contact {
         position: fixed;
@@ -56,7 +95,13 @@ a {
         flex-direction: column;
         background: white;
         overflow: auto;
+        justify-content: center;
+        align-items: center;
     } 
+    .link, .git {
+        margin-left: 5px;
+        display: inline;
+    }
     
 .footer {
     display: block;
@@ -72,7 +117,7 @@ a {
     z-index: 0;
     } 
 
-    .page-style {
+ #doodle {
         display: flex;
 	    justify-content: center;
         align-items: center;
