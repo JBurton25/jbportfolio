@@ -1,19 +1,13 @@
 
 body {
-    background: #4776E6;  
-    background: -webkit-linear-gradient(to right, #8E54E9, #4776E6);  
-    background: linear-gradient(to right, #8E54E9, #4776E6); 
-    height: 100%;
-    font-size: 1.3rem;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -webkit-overflow-scrolling: touch;
-    min-height: 100vh;
-    
+    min-height: 400px;
+    margin-bottom: 100px;
+    clear: both;
 }
 
 header {
    display: inline-block;
+   position: fixed;
    padding: 0px;
    height: 40px;
    line-height: 40px;
@@ -65,9 +59,6 @@ h2 {
       margin-top: 20px;
   }
 
- a {
-      display: none;
-  }
 
  .aboutme:hover .male,
  .aboutme .male-filled, 
@@ -114,12 +105,75 @@ h2 {
     background: white;
     white-space: nowrap;
     width: 100%;
-    z-index: 0;
+    
     } 
+    
 
- #doodle {
+.landing {
         display: flex;
-	    justify-content: center;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
         align-items: center;
-        margin-left: 45%;
-    }
+        align-content: center;
+        background: #4776E6;  
+        background: -webkit-linear-gradient(to right, #8E54E9, #4776E6);  
+        background: linear-gradient(to right, #8E54E9, #4776E6); 
+        height: 100%; 
+ }
+
+#doodle{
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+
+.hello {
+    font-family: 'Playfair Display SC', serif;
+
+}
+
+h1 {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 10em;
+}
+
+.intro {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    min-height: 400px;
+    margin-bottom: 100px;
+    clear: both;
+    height: 100%;
+}
+.headshot {
+margin-left: 50px;
+order: 1;
+background: white;
+border: none;
+}
+.card-img-top {
+    margin-top: 35px;
+   border-radius: 5px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.about-me {
+    margin-right: 100px;
+    order: 2;
+    font-size: 6em;
+    border: none;
+}
+
+.logo-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.logo {
+    padding: 10px;
+    margin-top: 10px;
+  }
