@@ -156,11 +156,13 @@ order: 1;
 background: white;
 border: none;
 }
-.card-img-top {
-    margin-top: 30px;
-   border-radius: 5px;
+
+.headshot {
+   margin-top: 30px; 
+   border-radius: 5px; 
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+} 
+
 .about-me {
     margin-right: 100px;
     order: 2;
@@ -215,7 +217,9 @@ border: none;
 .portfoliocard {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);     align-items: center;
     align-content: center;
+    padding: 7px 7px 7px 7px;
 }
+
 .card-img-overlay {
     position: absolute;
     top: 0;
@@ -242,9 +246,12 @@ border: none;
         -webkit-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);  
+
 }
 
 .btn {
-    margin: 30px 30px 30px 30px;
+    align-self: flex-end;
 }
+
+
 
