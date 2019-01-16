@@ -3,6 +3,8 @@ body {
     min-height: 400px;
     margin-bottom: 100px;
     clear: both;
+
+
 }
 
 header {
@@ -31,6 +33,7 @@ h2 {
     color: black;
     margin-left: 40px;
     font-weight: bold;
+    text-shadow: 1px 1px #666;
 }
 
 #menu {
@@ -124,16 +127,18 @@ h2 {
 #doodle{
     margin-top: 50px;
     margin-bottom: 120px;
+
 }
 
 .hello {
     font-family: 'Playfair Display SC', serif;
-
+    text-shadow:   4px 8px  rgba(0, 0, 0, 0.2)
 }
 
 h1 {
     font-family: 'Playfair Display SC', serif;
     font-size: 10em;
+    
 }
 
 .intro {
@@ -152,7 +157,7 @@ background: white;
 border: none;
 }
 .card-img-top {
-    margin-top: 35px;
+    margin-top: 30px;
    border-radius: 5px;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -161,6 +166,7 @@ border: none;
     order: 2;
     font-size: 6em;
     border: none;
+    text-shadow:   4px 8px  rgba(0, 0, 0, 0.2)
 }
 
 .logo-list{
@@ -176,4 +182,69 @@ border: none;
 .logo {
     padding: 10px;
     margin-top: 10px;
+    margin-bottom: 30px;
   }
+
+  .geo {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .projecttitlecontainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+    margin-bottom: 30px;
+  }
+
+  .projecttitle {
+    margin-right: 100px;
+    font-size: 6em;
+    border: none;
+    text-shadow:   4px 8px  rgba(0, 0, 0, 0.2);
+    margin-top: 30px;
+    margin-bottom: 30px
+  }
+
+.card-deck {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.portfoliocard {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);     align-items: center;
+    align-content: center;
+}
+.card-img-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: white;  
+  }
+
+  .portfoliocard:hover .card-img-overlay {
+    opacity: 1;
+  }
+
+  .projectname {
+        color: royalblue;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);  
+}
+
+.btn {
+    margin: 30px 30px 30px 30px;
+}
+
