@@ -187,7 +187,8 @@ border: none;
     margin-bottom: 30px;
   }
 
-  .geo, .collab {
+  .geo {
+    margin-top: 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
@@ -249,19 +250,28 @@ border: none;
 
 }
 
+.collabtitle {
+    margin-bottom: 30px;
+}
 .btn {
     align-self: flex-end;
 }
 
-.collab-container{
+.collab-buttons{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    align-content: center;
+    
+}
 
+.collabbtn {
+    text-align: center;
 }
 
 
 .collabtitle {
+   text-align: center;
     font-size: 6em;
     border: none;
     text-shadow:   4px 8px  rgba(0, 0, 0, 0.2);
@@ -269,14 +279,20 @@ border: none;
     margin-bottom: 60px
 }
 
-.collab-buttons {
-    justify-content: center;
-    display: inline;
-    flex-flow: row
-}
 
 .resume-button, .emailme-button {
-    justify-content: center
+    align-content: center;
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-left-color: #4776E6;
+    border-right-color: #4776E6;
+    border-top-color: #8E54E9;
+    border-bottom-color: #8E54E9;
+    border-radius: 25px;
+ 
 }
   
 
