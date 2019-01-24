@@ -226,7 +226,8 @@ border: none;
 }
 
 .portfoliocard {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);     align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);     
+    align-items: center;
     align-content: center;
     padding: 7px 7px 7px 7px;
     margin-bottom: 60px;
@@ -274,6 +275,7 @@ border: none;
 .collaboration {
     margin-top: 90px;
     margin-bottom: 60px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .collab-buttons{
