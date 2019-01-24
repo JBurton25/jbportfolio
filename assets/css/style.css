@@ -68,13 +68,23 @@ h2 {
  .portfolio:hover .document,
  .portfolio .document-filled,
  .contact:hover .message,
- .contact .message-filled{
+ .contact .message-filled,
+ .collabresume:hover .circle,
+ .collabresume .circle-filled,
+ .collabemail:hover .mail,
+ .collabemail .mail-filled
+
+
+ {
      display: none;
  }
 
  .aboutme:hover .male-filled,
  .portfolio:hover .document-filled,
- .contact:hover .message-filled{
+ .contact:hover .message-filled,
+ .collabresume:hover .circle-filled,
+ .collabemail:hover .mail-filled
+ {
      display: inline;
  }
 
@@ -158,7 +168,7 @@ border: none;
 }
 
 .headshot {
-   margin-top: 30px; 
+   margin-top: 60px; 
    border-radius: 5px; 
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 } 
@@ -184,11 +194,11 @@ border: none;
 .logo {
     padding: 10px;
     margin-top: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
   }
 
   .geo {
-    margin-top: 30px;
+    margin-top: 60px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
@@ -196,7 +206,7 @@ border: none;
     display: flex;
     justify-content: flex-end;
     align-items: right;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
   }
 
   .projecttitle {
@@ -204,8 +214,8 @@ border: none;
     font-size: 6em;
     border: none;
     text-shadow:   4px 8px  rgba(0, 0, 0, 0.2);
-    margin-top: 30px;
-    margin-bottom: 30px
+    margin-top: 60px;
+    margin-bottom: 60px
   }
 
 .card-deck {
@@ -219,6 +229,7 @@ border: none;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);     align-items: center;
     align-content: center;
     padding: 7px 7px 7px 7px;
+    margin-bottom: 60px;
 }
 
 .card-img-overlay {
@@ -251,50 +262,53 @@ border: none;
 }
 
 .collabtitle {
-    margin-bottom: 30px;
+        text-align: center;
+         font-size: 6em;
+         border: none;
+         text-shadow:   4px 8px  rgba(0, 0, 0, 0.2);
+         margin-top: 60px;
+         margin-bottom: 60px
+     
 }
-.btn {
-    align-self: flex-end;
+
+.collaboration {
+    margin-top: 90px;
+    margin-bottom: 60px;
 }
 
 .collab-buttons{
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    align-content: center;
-    
-}
-
-.collabbtn {
-    text-align: center;
-}
-
-
-.collabtitle {
-   text-align: center;
-    font-size: 6em;
-    border: none;
-    text-shadow:   4px 8px  rgba(0, 0, 0, 0.2);
-    margin-top: 60px;
-    margin-bottom: 60px
+    justify-content: space-evenly;   
 }
 
 
 .resume-button, .emailme-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-content: center;
-    height: 200px;
-    width: 200px;
+    align-items: center;
+    height: 300px;
+    width: 300px;
     background-color: white;
     border-style: solid;
-    border-width: 2px;
+    border-width: 8px;
     border-left-color: #4776E6;
-    border-right-color: #4776E6;
+    border-right-color: #8E54E9;
     border-top-color: #8E54E9;
-    border-bottom-color: #8E54E9;
+    border-bottom-color: #4776E6;
     border-radius: 25px;
- 
+    margin-bottom: 60px;
 }
-  
 
-
+h3 {
+    font-family: 'Playfair Display SC', serif;
+    font-variant: small-caps;
+    letter-spacing: 5px;
+    color: black;
+    font-weight: bold;
+    text-shadow: 1px 1px #666;
+    margin-right: 3px;
+    font-size: 36px
+}
 
