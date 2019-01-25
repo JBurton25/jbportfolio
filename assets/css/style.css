@@ -161,17 +161,16 @@ h1 {
     height: 100%;
 }
 .headshot {
-margin-left: 50px;
+/* margin-left: 50px; */
 order: 1;
-background: white;
 border: none;
-}
-
-.headshot {
    margin-top: 100px; 
    border-radius: 5px; 
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 } 
+.card-img-top {
+    border-radius: 8px; 
+}
 
 .about-me {
     margin-right: 100px;
