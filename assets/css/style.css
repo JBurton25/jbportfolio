@@ -315,12 +315,3 @@ h3 {
     font-size: 36px
 }
 
-@media screen and (max-width: 320px) {
-
-  
-    section {
-      /* Box-model */
-      width: 100%;
-      padding: 20px;
-    }
-
